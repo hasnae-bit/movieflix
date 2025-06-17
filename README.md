@@ -1,17 +1,27 @@
-<<<<<<< HEAD
-# React + Vite
+# 🎬 MovieFlix
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**MovieFlix** est une application web développée avec React.js et Vite, permettant de gérer une collection de films. 
+L'utilisateur peut consulter les films populaires, effectuer des recherches, ajouter ses propres films et consulter les détails de chaque film.
 
-Currently, two official plugins are available:
+## 🚀 Technologies utilisées
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [React.js](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [React Router](https://reactrouter.com/)
+- [Axios](https://axios-http.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [The Movie Database (TMDb) API](https://www.themoviedb.org/)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# movieflix
-Application de gestion de films avec React
->>>>>>> 782248b619e19884143cddc57ea64c2b7b778cc0
+##🧭 Fonctionnalités principales
+
+Page d'accueil : liste des films populaires, tendances et ajoutés localement.
+
+Recherche : recherche de films par mots-clés (locaux + via TMDb).
+
+Ajout de film : formulaire pour ajouter un film personnalisé.
+
+Détails : affichage complet des informations d’un film.
+
+Stockage local : les films ajoutés sont enregistrés dans le navigateur (localStorage).
+
